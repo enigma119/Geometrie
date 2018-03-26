@@ -62,13 +62,15 @@ public class TesteFigGeo {
                     lire.nextLine();
                     System.out.println("Voulez- vous continuer: ? Oui / Non");
                     rep=lire.nextLine(); 
-                }
-                    while(!(rep.equalsIgnoreCase("non")));
-                    {
-                        System.out.println("\t ====== FIN DU PROGRAMME ====== ");
-                    }   
-                    break;
-                
+                    while(!(rep.equalsIgnoreCase("non")) && !(rep.equalsIgnoreCase("oui")))
+                          {
+                              System.out.println("Entrer la bonne reponse :");
+                               rep=lire.nextLine();
+                          }
+                           
+                    }while((rep.equalsIgnoreCase("oui")));
+
+                   break;
                     
             case 2:
                 do{
@@ -90,12 +92,15 @@ public class TesteFigGeo {
                     lire.nextLine();
                     System.out.println("Voulez- vous continuer: ? Oui / Non");
                     rep=lire.nextLine();
-                }
-                while(!(rep.equalsIgnoreCase("non")));
-                {
-                    System.out.println("\t ====== FIN DU PROGRAMME ====== ");
-                }
-                break;
+                   while(!(rep.equalsIgnoreCase("non")) && !(rep.equalsIgnoreCase("oui")))
+                          {
+                              System.out.println("Entrer la bonne reponse :");
+                               rep=lire.nextLine();
+                          }
+                           
+                    }while((rep.equalsIgnoreCase("oui")));
+
+                   break;
                 
             case 3:
                 System.out.println("\n****** Traitement d'un Triangle *******\n");
@@ -119,13 +124,17 @@ public class TesteFigGeo {
                         lire.nextLine();
                         System.out.println("Voulez- vous continuer: ? Oui / Non");
                         rep=lire.nextLine();
-                    }
-                    while(!(rep.equalsIgnoreCase("non")));
-                    {
-                        System.out.println("\t ====== FIN DU PROGRAMME ====== ");
-                    }
-                    break;
-                }       
+                        while(!(rep.equalsIgnoreCase("non")) && !(rep.equalsIgnoreCase("oui")))
+                          {
+                              System.out.println("Entrer la bonne reponse :");
+                               rep=lire.nextLine();
+                          }
+                           
+                       }  while((rep.equalsIgnoreCase("oui")));
+
+                   break;
+                } 
+      
                 if(choice==2)
                 {
                     do{
@@ -140,15 +149,18 @@ public class TesteFigGeo {
                         lire.nextLine();
                         System.out.println("Voulez- vous continuer: ? Oui / Non");
                         rep=lire.nextLine();
-                      
-                    }
-                    while(!(rep.equalsIgnoreCase("non")));
-                    {
-                        System.out.println("\t ====== FIN DU PROGRAMME ====== ");
-                    }
-                   break; 
-                    
-                }       if(choice==3)
+                        while(!(rep.equalsIgnoreCase("non")) && !(rep.equalsIgnoreCase("oui")))
+                          {
+                              System.out.println("Entrer la bonne reponse :");
+                               rep=lire.nextLine();
+                          }
+                           
+                        }while((rep.equalsIgnoreCase("oui")));
+                        break;
+                        }
+                   
+                             
+                 if(choice==3)
                 {
                     do{
                         System.out.println( "Vous avez choisi le traitement d'un Triangle Isocele ");
@@ -163,12 +175,15 @@ public class TesteFigGeo {
                         lire.nextLine();
                         System.out.println("Voulez- vous continuer: ? Oui / Non");
                         rep=lire.nextLine();
-                    }
-                    while(!(rep.equalsIgnoreCase("non")));
-                    {
-                        System.out.println("\t ====== FIN DU PROGRAMME ====== ");
-                    }
-                    break;
+                       while(!(rep.equalsIgnoreCase("non")) && !(rep.equalsIgnoreCase("oui")))
+                          {
+                              System.out.println("Entrer la bonne reponse :");
+                               rep=lire.nextLine();
+                          }
+                           
+                       }while((rep.equalsIgnoreCase("oui")));
+
+                   break;
                 }      
                 break;
                 
